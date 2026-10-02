@@ -1,3 +1,6 @@
 print("Qual seu nome?")
 nome = input()
-print("Oi", nome)
+if nome == "filippi":
+    print("Oi professor", nome)
+else:
+    print("Oi aluno", nome)
